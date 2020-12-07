@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="byte\byte-styles.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            <script type="text/javascript" src="byte/js.js"></script>
+            <title>OneByte</title>
+        </head>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#e8308c;">
+            <div class="container">
+                <a class="navbar-brand" href="#">Сергей Воробьёв</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://vorobyov01.ru">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://vorobyov01.ru/p">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> <!-- навигация -->
+
+        <div class="container">
+            <!-- <div class="row">
+                <div class="col">
+                    <p class="text-center" style="font-size:3rem; color:#e8308c;"></p>
+                </div>
+            </div> -->
+            <div class="row mt-5">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-0"></div>
+                <div class="col cifer">
+                    <div class="bitblock" style="color:#464646;">0</div>
+                    <div class="bitblock" style="color:#464646;">b</div>
+                    <div class="bitblock"><a href="#" onclick="changeBit(7);return false" id="b7">0</a></div>
+                    <div class="bitblock"><a href="#" onclick="changeBit(6);return false" id="b6">0</a></div>
+                    <div class="bitblock"><a href="#" onclick="changeBit(5);return false" id="b5">0</a></div>
+                    <div class="bitblock"><a href="#" onclick="changeBit(4);return false" id="b4">0</a></div>
+                    <div class="bitblock"><a href="#" onclick="changeBit(3);return false" id="b3">0</a></div>
+                    <div class="bitblock"><a href="#" onclick="changeBit(2);return false" id="b2">0</a></div>
+                    <div class="bitblock"><a href="#" onclick="changeBit(1);return false" id="b1">0</a></div>
+                    <div class="bitblock"><a href="#" onclick="changeBit(0);return false" id="b0">0</a></div>
+                </div>
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-0"></div>
+            </div>
+            <div class="row">
+                <div class="col text-center mt-5">
+                    <span id="result" style="font-size:5rem; color:#464646;">0</span><span> <sub style="font-size:16px; color:#464646;">10</sub> </span>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-0"></div>
+                <div class="col"><p class="headers" style="color:#e8308c;">Сalculations:</p></div>
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-0"></div>
+            </div> <!-- Заголовок "Расчеты" -->
+
+            <div class="row mt-1">
+                <div class="col text-center" style="height:3rem;">
+                    <span id="calc" style="font-size:2rem;"></span>
+                </div>
+            </div>
+            <!-- <a href="#" class="mt-5" onclick="game(); retrun false">игра</a> <br>
+            <span id="numgame"></span> -->
+        </div>
+        <div class="" style="height:100rem;"></div>
+        <footer class="page-footer font-small bg-light">
+            <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                <a href="https://vk.com/serv_01">Воробьёв Сергей</a>
+            </div>
+        </footer>
+    </body>
+</html>
